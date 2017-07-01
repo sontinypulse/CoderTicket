@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151215104433) do
+ActiveRecord::Schema.define(version: 20170701064051) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,7 +22,13 @@ ActiveRecord::Schema.define(version: 20151215104433) do
   end
 
   create_table "events", force: :cascade do |t|
+    t.date     "starts_at_date"
+    t.string   "starts_at_hour"
+    t.string   "starts_at_minute"
     t.datetime "starts_at"
+    t.date     "ends_at_date"
+    t.string   "ends_at_hour"
+    t.string   "ends_at_minute"
     t.datetime "ends_at"
     t.integer  "venue_id"
     t.string   "hero_image_url"
@@ -49,6 +55,16 @@ ActiveRecord::Schema.define(version: 20151215104433) do
     t.datetime "created_at",   null: false
     t.datetime "updated_at",   null: false
     t.index ["event_id"], name: "index_ticket_types_on_event_id", using: :btree
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.string   "password_digest"
+    t.string   "identification_number"
+    t.datetime "created_at",            null: false
+    t.datetime "updated_at",            null: false
   end
 
   create_table "venues", force: :cascade do |t|

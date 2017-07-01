@@ -32,10 +32,24 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.1.0'
 end
 
-gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'font-kit-rails', '~> 1.2.0'
+
+# bootstrap
+gem 'bootstrap', '~> 4.0.0.alpha6'
+
+# jquery
+gem 'jquery-rails'
+
+gem 'jquery-validation-rails'
+
+gem 'jquery-turbolinks'
+
+gem 'faker', '~> 1.4', '>= 1.4.3'
+
+# Gemfile to use has_secure_password
+gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -49,6 +63,8 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
   gem 'simplecov', '~> 0.12.0', require: false
   gem 'guard-rspec', require: false
+  gem 'rails-controller-testing'
+  gem 'capybara'
 end
 
 group :development do

@@ -1,0 +1,63 @@
+<script>
+$(document).ready(function () {
+  $("#new_user").validate({
+  rules: {
+    "user[email]": {required: true, email: true, remote:"/users/check_email" },
+    "user[password]": {required: true, minlength: 6},
+    "user[password_confirmation]": {required: true, equalTo: "#user_password"}
+  },
+  messages: {
+    "user[email]": {required: "Please specify your email",
+    email: "Invalid email format, please specify as name@domain.com",
+    remote: "Existing email, please specify the other" },
+  }
+  });
+});
+</script>
+<div class="container">
+  <%= form_for @user do |f| %>
+  <div class="row-xs-flex-center">
+        <div class="modal-dialog modal-lg">
+      		<form role="form">
+      			<h2>Please Sign Up <small>It's free and always will be.</small></h2>
+      			<hr class="colorgraph">
+      			<div class="row">
+      				<div class="col-xs-12 col-sm-6 col-md-6">
+      					<div class="form-group">
+                  <%= f.text_field :first_name, class: 'form-control input-lg', placeholder: 'First Name', tabindex: 1%>
+      					</div>
+      				</div>
+      				<div class="col-xs-12 col-sm-6 col-md-6">
+      					<div class="form-group">
+      						<%= f.text_field :last_name, class: 'form-control input-lg', placeholder: 'Last Name', tabindex: 2%>
+      					</div>
+      				</div>
+      			</div>
+      			<div class="form-group">
+              <%= f.text_field :identification_number, class: 'form-control input-lg', placeholder: 'Identification Number', tabindex: 3%>
+      			</div>
+      			<div class="form-group">
+              <%= f.text_field :email, class: 'form-control input-lg', placeholder: 'Email Address', tabindex: 4%>
+      			</div>
+      			<div class="row">
+      				<div class="col-xs-12 col-sm-6 col-md-6">
+      					<div class="form-group">
+                  <%= f.password_field :password, class: 'form-control input-lg', placeholder: 'Password', tabindex: 5%>
+      					</div>
+      				</div>
+      				<div class="col-xs-12 col-sm-6 col-md-6">
+      					<div class="form-group">
+                  <%= f.password_field :password_confirmation, class: 'form-control input-lg', placeholder: 'Confirm Password', tabindex: 6%>
+      					</div>
+      				</div>
+      			</div>
+      			<hr class="colorgraph">
+      			<div class="row">
+      				<div class="col-xs-12 col-md-6"><%= f.submit 'Register', class:  'btn btn-primary btn-block btn-lg', tabindex: 7%></div>
+      				<div class="col-xs-12 col-md-6"><a href="<%= users_sign_in_path %>" class="btn btn-success btn-block btn-lg">Sign In</a></div>
+      			</div>
+      		</form>
+      </div>
+  </div>
+  <% end %>
+</div>

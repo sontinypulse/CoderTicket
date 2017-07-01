@@ -1,12 +1,27 @@
-<div class="col-md-6">
-  <%= link_to event_path(event) do %>
-    <div class="card">
-      <img class="card-img-top" src="<%= event.hero_image_url %>">
-      <div class="card-block">
-        <h4 class="card-title"><%= event.name %></h4>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-        </p>
-      </div>
+<article class="card fl-left" id="event_<%= event.id %>">
+  <section class="date">
+    <time datetime="23th feb">
+      <span><%= event.starts_at_date.strftime("%d") %></span><span><%= event.starts_at_date.strftime("%b") %></span>
+    </time>
+  </section>
+  <section class="card-cont">
+    <small><%= event.event_type_name %></small>
+    <h3><%= link_to event.name, event_path(event), class: 'event-name-link'%></h3>
+    <small>  <img src="<%= event.hero_image_url %>" class="img-fluid"></small>
+
+    <div class="even-date">
+     <i class="fa fa-calendar"></i>
+     <time>
+       <span><%= event.starts_at_date.strftime("%A") %> <%= event.starts_at_date.strftime("%d") %> <%= event.starts_at_date.strftime("%B") %> <%= event.starts_at_date.strftime("%Y") %></span>
+       <span><%= event.starts_at_hour%>:<%= event.starts_at_minute%> to <%= event.ends_at_hour%>:<%= event.ends_at_minute%></span>
+     </time>
     </div>
-  <% end %>
-</div>  
+    <div class="even-info">
+      <i class="fa fa-map-marker"></i>
+      <p>
+        <%= event.venue_full_address %>
+      </p>
+    </div>
+    <%= link_to 'Book tick', event_path(event), class: 'button-link' %>
+  </section>
+</article>

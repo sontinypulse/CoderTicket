@@ -1,0 +1,46 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+h6
+{
+    font-size:1.5rem;
+    text-decoration: underline;
+}
+.footer
+{
+    font-family: "Roboto", sans-serif;
+    line-height: 1.6;
+    background-color:#C11F61;
+    color:#ACFF99;
+    font-size:1.2rem;
+}
+
+.footer  ul {
+    list-style-type:none;
+}
+
+.footer a
+{
+    color:#fff;
+}
+.footer a:hover
+{
+    color:#fff;
+}
+
+.footer .widget_nav_menu ul li::before {
+    position: relative;
+    padding-right: 20px;
+    content: "\f178";
+    font-family: "FontAwesome";
+   /* color: rgba(255, 255, 255, 0.15); */
+    font-size: 12px;
+}
+.appoint
+{
+    margin:2rem 0 2rem 0;
+}
+.bottom-footer .fa
+{
+    font-size:2.5rem;
+    padding:.7rem;
+}

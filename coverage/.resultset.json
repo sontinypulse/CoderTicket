@@ -1,80 +1,83 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/spec/routes/events_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        null
-      ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/spec/rails_helper.rb": [
-        null,
-        1,
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/spec/views/users/new.html.erb_spec.rb": [
         1,
         null,
         1,
         1,
         1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        1,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        null,
+        0,
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/environment.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/spec/rails_helper.rb": [
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/application.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/application.rb": [
         1,
         null,
         1,
@@ -98,11 +101,11 @@
         null,
         null,
         null,
-        1,
+        null,
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/boot.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/boot.rb": [
         1,
         null,
         1,
@@ -118,7 +121,7 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/environments/test.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/environments/test.rb": [
         1,
         null,
         null,
@@ -162,7 +165,7 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/assets.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -175,7 +178,7 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/backtrace_silencers.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -184,18 +187,18 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/cookies_serializer.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/filter_parameter_logging.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/inflections.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -213,18 +216,18 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/mime_types.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/session_store.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/simple_form.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/simple_form.rb": [
         null,
         1,
         null,
@@ -391,7 +394,7 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/simple_form_bootstrap.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/simple_form_bootstrap.rb": [
         null,
         1,
         1,
@@ -542,7 +545,7 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/initializers/wrap_parameters.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -558,85 +561,46 @@
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/config/routes.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/config/routes.rb": [
         1,
         1,
         null,
         1,
         1,
         null,
+        1,
         null,
+        1,
         null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/app/helpers/application_helper.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/app/helpers/events_helper.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/app/helpers/events_helper.rb": [
         1,
         1,
         0,
         null,
         null
       ],
-      "/Users/dtt22/code/coderschool/ruby/CoderTicket/app/helpers/tickets_helper.rb": [
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/app/helpers/search_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/app/helpers/tickets_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/sondang/Projects/Ruby/Coderschool/CoderTicket/app/helpers/users_helper.rb": [
         1,
         null
       ]
     },
-    "timestamp": 1477632197
+    "timestamp": 1498903397
   }
 }

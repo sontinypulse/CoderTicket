@@ -1,0 +1,66 @@
+.business-header {
+    height: 325px;
+    background: url('UpComingEvents.png') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+body {
+  height:100%;
+  width:100%;
+  background-color: #dadde6;
+  font-family: arial
+}
+
+header {
+  background-image:url('http://www.dizedesign.de/snippets/headerx.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+  background-attachment:fixed;
+  height:1000px;
+}
+
+.btn.btn-default.btn-lg {
+  letter-spacing:2px;
+}
+
+.btn-default {
+  background-image:none;
+  background-image:none;
+  background-image:none;
+  background-image:none;
+  background-repeat:no-repeat;
+  filter:none;
+  -webkit-filter:none;
+  filter:none;
+  border:1px solid #fefefe;
+  background-color:rgba(229,76,124,0.521569);
+  color:#fefefe;
+}
+
+.navbar-default {
+  border-bottom:#fefefe;
+}
+
+.btn-default:hover {
+  opacity:.4;
+  background-color:rgba(229,76,124,0.521569);
+  color:#fefefe;
+  border:1px solid #fefefe;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color:#fafafa;
+  background-color:none;
+}
+
+.navbar-brand.navbar-link {
+  color:#fefefe;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color:#000;
+  background-color:#fafafa;
+}
