@@ -29,18 +29,20 @@
 
     </div>
   </div>
+  <%= form_tag(tickets_buy_path, method: "post", class: "form-signin") do %>
+  <%= hidden_field_tag 'ticket_type_ids', @event.ticket_types.collect { |obj| obj.id } %>
+  <%= hidden_field_tag 'event_id', @event.id %>
   <div class="row">
     <div class="col-md-11 col-md-offset-1">
       <table class="table">
         <th> Ticket Type </th>
         <th> Unit Price </th>
         <th> Quantity </th>
-
         <% @event.ticket_types.each do |type| %>
         <tr>
           <td> <%= type.name %> </td>
           <td> <%= number_to_currency(type.price, unit: 'VND ', precision: 0) %> </td>
-          <td> <%= select_tag('quantity', options_for_select(0..10)) %></td>
+          <td> <%= select_tag type.id, options_for_select(0..10, params["#{type.id}"]) %></td>
         </tr>
         <% end %>
       </table>
@@ -51,4 +53,5 @@
       <button class="btn btn-success btn-lg btn-block"> Buy </button>
     </div>
   </div>
+  <% end %>
 </div>
